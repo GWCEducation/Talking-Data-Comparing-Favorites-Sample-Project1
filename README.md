@@ -1,29 +1,35 @@
-# JupyterLite Demo
+# Talking Data: Comparing Favorites Starter Code
+Fork this project to get started on the project.
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+### Project Requirements
+Your project should:
+- Use a variable to store and print the data of your favorite movie.
+- Use .loc to filter the data set to a genre, and store it in a new variable.
+- Calculate the min, max, mean, and median of a column.
+- Print how the min, max mean, and median compare to your favorite movie's value.
+- Create a histogram and use a print statement to describe it.
+- Create a scatter plot and use a print statement to describe the relationship between two variables.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+### Extensions
+You can extend your project further by:
+- Plot your favorite movie
+- Explore more data
+- Visualize data creatively
 
-## ✨ Try it in your browser ✨
+###  Attributions
+The rotten_tomatoes_movies.csv data was originally scraped by Stefano Leone and is available on Kaggle for CC0:Public Domain Use: https://www.kaggle.com/datasets/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotten_tomatoes_movies.csv
 
-➡️ **https://jupyterlite.github.io/demo**
+*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+---
 
-## Requirements
+## File Overview
 
-JupyterLite is being tested against modern web browsers:
+### ← main.py
+This is where you will write your main program.
 
-- Firefox 90+
-- Chromium 89+
+### ← README.md
+README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
 
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
+### ← rotten_tomatoes_movies.csv
+This is a csv file containing data scraped from Rotten Tomatoes by Stefano Leone. The data was made modified to make student usability easier. Modifications include: Creating the year_released column based on original_release_date, dropping NA values, and selecting out the columns: movie_title, year_released, critic_rating, audience_rating, genres.
